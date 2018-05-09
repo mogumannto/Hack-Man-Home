@@ -1,0 +1,21 @@
+
+/* header */
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+ul li:first-child {
+    margin-right: auto;
+}
+
+
+/* section */
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
