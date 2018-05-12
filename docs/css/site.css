@@ -1,21 +1,74 @@
+/* body */
+body{
+    background-image: linear-gradient(-90deg, #B6AF49, #12BF8B);
+}
 
 /* header */
+header{
+    position: fixed; /* 固定 */
+    top: 0; /* 一番上に表示 */
+    width: 100%; /* 中央に表示 */
+    background-image: linear-gradient(-90deg, #B6AF49, #12BF8B);
+}
+nav{
+    width: 1170px;
+    margin: auto;
+}
+
 ul {
     display: flex;
+    padding: 10px 0;
 }
 
 ul li {
     padding: 10px 20px;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 ul li:first-child {
     margin-right: auto;
 }
 
-
-/* section */
-section{
-    width: 100vw;
-    height: 100vh;
+/* main */
+main{
+    margin-top: 65px;
 }
+    /* section */
+    main #entry, main #profile, main #contact{
+        width: 100vw;
+    }
+    main .content{
+        width: 1170px;
+        margin: auto;
+    }
 
+    /* entry */
+    #entry{
+        height: 90vh;
+    }
+    #entry .content{
+        border: 1px solid #aaa;
+        position: relative;
+    }
+    .textBox{
+        border: 1px solid #aaa;
+        width: 150px;
+        height: 50px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+    }
+
+    /* profile */
+    #profile{
+        background-color: blue;
+    }
+
+    /* contact */
+    #contact{
+        background-color: yellow;
+    }
