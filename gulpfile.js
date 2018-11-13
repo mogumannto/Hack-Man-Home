@@ -6,10 +6,10 @@ const sass = require('gulp-sass');
 // style.scssをタスクを作成する
 gulp.task('default', function () {
   // scssファイルを監視
-  gulp.watch('src/scss/*.scss', function () {
+  gulp.watch('src/scss/**/*.scss', function () {
 
     // scssファイルを取得
-    gulp.src('src/scss/*.scss')
+    gulp.src('src/scss/index.scss')
       // Sassのコンパイルを実行
       .pipe(sass({
         outputStyle: 'expanded'
