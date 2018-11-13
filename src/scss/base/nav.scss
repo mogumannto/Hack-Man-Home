@@ -1,0 +1,32 @@
+header{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background: red;
+}
+nav{
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 2rem;
+
+  .nav-home{
+    width: 30%;
+
+    p{
+      margin: 10px 15px;
+    }
+  }
+  .nav-list{
+    width: 70%;
+
+    ul{
+      display: flex;
+      justify-content: flex-end;
+
+      li{
+        margin: 10px 15px;
+      }
+    }
+  }
+}
