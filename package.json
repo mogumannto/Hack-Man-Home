@@ -1,0 +1,29 @@
+{
+  "name": "Hack-Man-Home",
+  "version": "1.0.0",
+  "description": "HP",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogumannto/Hack-Man-Home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogumannto/Hack-Man-Home/issues"
+  },
+  "homepage": "https://github.com/mogumannto/Hack-Man-Home#readme"
+}
